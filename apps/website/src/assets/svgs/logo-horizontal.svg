@@ -11,10 +11,3 @@
 <path d="M112 87L129.321 162H94.6795L112 87Z" fill="#38B000"/>
 <circle cx="112.5" cy="109.5" r="22.5" fill="#38B000"/>
 </svg>
-
-<style>
-svg {
-    width: 500px;
-    height: auto;
-}
-</style>
