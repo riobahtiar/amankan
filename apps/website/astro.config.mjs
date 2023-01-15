@@ -13,9 +13,12 @@ import vercel from "@astrojs/vercel/serverless";
 import prefetch from "@astrojs/prefetch";
 
 // https://astro.build/config
+import compress from "astro-compress";
+
+// https://astro.build/config
 export default defineConfig({
-  site: 'https://example.com',
-  integrations: [mdx(), sitemap(), image(), tailwind(), react(), prefetch()],
+  site: 'https://amankan.org',
+  integrations: [mdx(), sitemap(), image(), tailwind(), react(), prefetch(), compress()],
   output: "server",
   adapter: vercel()
 });

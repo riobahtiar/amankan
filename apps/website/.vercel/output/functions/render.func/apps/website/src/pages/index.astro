@@ -1,0 +1,59 @@
+---
+import BaseHead from '../components/BaseHead.astro'
+import Header from '../components/Header.astro'
+import Footer from '../components/Footer.astro'
+import { SITE_TITLE, SITE_DESCRIPTION } from '../config'
+import Alert from '../components/Alert.tsx'
+---
+
+<!DOCTYPE html>
+<html lang="en" data-theme="corporate">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header title={SITE_TITLE} />
+    <main class="container mx-auto mt-5 mb-5">
+      <article class="prose prose-slate lg:prose-xl pt-10">
+		<div class="mb-3">
+			<Alert text="Website Dalaman Pengembangan Lebih Lanjut!" type="warning" />
+		</div>
+		<h1>Amankan: Media edukasi keamanan online!</h1>
+        <p>
+          "AMANKAN" adalah website yang didedikasikan untuk memberikan edukasi
+          mengenai keamanan di dunia digital. Kami memahami bahwa di era digital
+          saat ini, keamanan data pribadi dan akun menjadi hal yang penting
+          untuk diperhatikan.
+        </p>
+
+        <p>
+          Di website ini, Anda akan menemukan berbagai pembahasan mengenai
+          keamanan data pribadi, keamanan akun, cara menghindari pembobolan akun
+          sosial media dan website dengan menggunakan password yang aman, serta
+          tools yang dapat menunjang keamanan pribadi. Kami juga akan memberikan
+          kiat-kiat aman berselancar internet serta memberikan himbauan untuk
+          mewaspadai penipuan, phising, ransomware, atau hal lain yang
+          berhubungan dengan kejahatan internet.
+        </p>
+
+        <p>
+          Kami memahami bahwa dunia digital sangat dinamis dan selalu
+          berkembang, oleh karena itu kami akan terus menyajikan informasi
+          terbaru dan terupdate mengenai keamanan di dunia digital. Kami juga
+          akan menyediakan tutorial yang mudah dipahami dan diterapkan dalam
+          kehidupan sehari-hari.
+        </p>
+
+        <p>
+          "AMANKAN" adalah website yang cocok bagi siapa saja yang ingin
+          belajar lebih banyak tentang keamanan di dunia digital. Kami berharap
+          dapat memberikan manfaat yang berharga bagi Anda, dan membantu Anda
+          untuk tetap aman saat beraktifitas di dunia digital. Ayo, AMANKAN diri
+          Anda sekarang juga bersama kami!
+        </p>
+
+      </article>
+    </main>
+    <Footer />
+  </body>
+</html>
