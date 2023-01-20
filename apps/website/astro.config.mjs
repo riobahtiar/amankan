@@ -8,7 +8,6 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 import react from "@astrojs/react";
-import node from "@astrojs/node";
 import vercel from "@astrojs/vercel/serverless";
 import prefetch from "@astrojs/prefetch";
 

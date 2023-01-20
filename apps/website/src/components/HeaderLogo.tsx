@@ -1,7 +1,7 @@
 export default function HeaderLogo(props) {
   return (
     <svg
-      class="inline max-w-xs"
+      className="inline max-w-xs"
       viewBox="0 0 1477 195"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
