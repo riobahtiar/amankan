@@ -1,9 +1,9 @@
 {
-  "name": "@amankan/secure-notes",
+  "name": "@amankan/web",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "next dev --port 3001",
+    "dev": "next dev --port 3000",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
